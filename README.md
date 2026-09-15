@@ -1,4 +1,4 @@
-# eyodd_2026b
+![alt text](image.png)
 Repositorio de la materia Estructura y Organización de Datos, 2026B
 
 #  📄 Estructura y Organizacion de Datos
