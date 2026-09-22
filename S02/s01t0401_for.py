@@ -7,15 +7,27 @@
 # Importamos biblioteca time
 import time
 
-#creando una marca de tiempo
+#tomando el tiempo inicial
 timestamp_01= time.time()
 
 #Programa que calcula la suma
 # de los "n" numeros naturales
 n=100
-sum=0
+total_sum=0
 
 #Ciclo for
 for number in range(1,n+1):
-    print(str(number) +" ")
-    
+    total_sum= total_sum + number
+    #1: sum <-0+1
+    #sum=1
+    # 2: sum<-1+2
+    #sum=3
+    # 3: sum<-3+3
+#...
+#100: sum<-Sum_(-1)+100
+print(f"La suma de 1 hasta {n} es : {total_sum}")
+#f significa formato que se puede amar un mensaje para combinarlo con los variables.
+#Tomando el tiempoi final.
+timestamp_02=time.time()
+#Impresión del tiempo de ejecución
+print(f"Tiempo de ejecución:{((timestamp_02 - timestamp_01)*1e6):.2f} μs")
