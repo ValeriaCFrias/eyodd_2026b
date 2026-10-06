@@ -17,5 +17,5 @@ print(random_function(student_list_01))
 
 # Calcular O(?)
 """
-0(3n+5)=0(n)
+0(3n+5)= O(3n) =0(n)
 """
