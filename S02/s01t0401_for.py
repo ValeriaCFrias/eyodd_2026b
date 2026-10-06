@@ -28,7 +28,7 @@ for repetition in range (1,11):
   #⏳Tomo el tiempo 1(inicial)
  timestamp_01 = time.time()
  #suma los "n" numeros.
- n=repetition*100
+ n=repetition*500
  #Guardo el resultado en resort
  result = sum_of_n(n)
 

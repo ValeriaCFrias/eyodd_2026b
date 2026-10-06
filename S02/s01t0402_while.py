@@ -34,7 +34,7 @@ while repetition <= 10:
     timestamp_01 = time.time()
 
     # Calculo los "n" numeros
-    n = repetition * 100
+    n = repetition * 500
 
     # Guardo el resultado
     result = sum_of_n(n)
