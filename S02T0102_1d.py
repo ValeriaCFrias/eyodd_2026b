@@ -10,3 +10,19 @@ def print_array(input):
 
 my_array=arr('i',[2,10,15,20])
 print_array(my_array)
+
+#uscar el elemento 15
+number_to_search=15
+for integer in my_array:
+    if integer==number_to_search:
+        print("Numero encontrado")
+        #Sirve para terminar el ciclo
+        break
+    #Incrementos contador
+    counter+=1
+    if counter==len(my_array):
+        print("Numero no encontrado")
+        #Sirve para terminar el ciclo
+        break#Incrementos contador
+    counter+=1
+    if counter==len(my_array):
